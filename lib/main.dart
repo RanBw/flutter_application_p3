@@ -112,6 +112,7 @@ class _BestQuotesState extends State<BestQuotes> {
                           TextButton(
                               onPressed: () {
                                 addNewQuote();
+                                Navigator.pop(context);
                               },
                               child: Text(
                                 "ADD",
